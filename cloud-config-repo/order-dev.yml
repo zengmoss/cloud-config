@@ -7,4 +7,4 @@ spring:
         username: guest
         password: guest
 my:
-    message: hi        
+    message: hello again        
