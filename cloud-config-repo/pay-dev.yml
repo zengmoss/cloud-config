@@ -7,4 +7,7 @@ spring:
         username: guest
         password: guest
 my:
-    message: i am new        
+    message: i am new
+feign:
+    hystrix:
+        enabled: true     
