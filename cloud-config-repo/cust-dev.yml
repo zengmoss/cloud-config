@@ -1,0 +1,12 @@
+server:
+    port: 8040
+spring:
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+    zipkin:
+        base-url: http://DC12985.biostime.com:6030
+my:
+    message: cust message
