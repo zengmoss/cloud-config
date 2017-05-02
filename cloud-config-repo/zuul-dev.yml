@@ -1,0 +1,20 @@
+server:
+    port: 6040
+spring:
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+    zipkin:
+        base-url: http://DC12985.biostime.com:6030
+my:
+    message: i am zuul
+zuul:
+    routes:
+        api-o2o:
+            path: /o2o/**
+            serviceId: o2o
+        api-sns:
+            path: /sns/**
+            serviceId: sns
