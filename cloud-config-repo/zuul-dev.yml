@@ -12,9 +12,5 @@ my:
     message: i am zuul
 zuul:
     routes:
-        api-o2o:
-            path: /o2o/**
-            serviceId: o2o
-        api-sns:
-            path: /sns/**
-            serviceId: sns
+        o2o: /o2o/**
+        sns: /sns/**
