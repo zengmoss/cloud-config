@@ -1,0 +1,85 @@
+qualification:
+    actBean:
+        title: 即买即兑
+        rules:
+          - "1、仅限线下指定门店的合生元微信会员专享；"
+          - "2、使用一张指定合生元优惠券可参与一次优惠兑换活动；"
+          - "3、兑换赠品均由合生元包邮到家，7个工作日内发货；"
+          - "4、0-6月宝宝不参与活动；"
+          - "5、合生元在法律允许的范围内对该活动保留最终解释权，活动详情可致电400-830-1055了解，或关注合生元妈妈100微信公众号在线咨询；"
+          - "6、限30天内参与兑换，逾期视为放弃资格。"
+        list:
+         - tplId: 199
+           code: b
+           name: 买6赠1
+         - tplId: 200
+           code: c
+           name: 买3赠1
+         - tplId: 203
+           code: a
+           name: 买大送小
+    skuBean:
+        list:
+         - sku: 240257
+           actPoint: 231
+           tplId: 203
+         - sku: 240253
+           actPoint: 1
+           tplId: 203
+         - sku: 2
+           actPoint: 200
+           tplId: 203
+         - sku: 236556
+           actPoint: 1
+           tplId: 203
+         - sku: 3
+           actPoint: 172
+           tplId: 203
+         - sku: 303
+           actPoint: 293
+           tplId: 203
+         - sku: 240257
+           actPoint: 235
+           tplId: 200
+         - sku: 240253
+           actPoint: 2
+           tplId: 200
+         - sku: 240252
+           actPoint: 215
+           tplId: 200
+         - sku: 2
+           actPoint: 204
+           tplId: 200
+         - sku: 236556
+           actPoint: 2
+           tplId: 200
+         - sku: 3
+           actPoint: 176
+           tplId: 200
+         - sku: 303
+           actPoint: 294
+           tplId: 200
+         - sku: 240257
+           actPoint: 238
+           tplId: 199
+         - sku: 240253
+           actPoint: 3
+           tplId: 199
+         - sku: 240252
+           actPoint: 219
+           tplId: 199
+         - sku: 2
+           actPoint: 208
+           tplId: 199
+         - sku: 236556
+           actPoint: 3
+           tplId: 199
+         - sku: 3
+           actPoint: 177
+           tplId: 199
+         - sku: 303
+           actPoint: 298
+           tplId: 199
+         - sku: 304
+           actPoint: 178
+           tplId: 199
